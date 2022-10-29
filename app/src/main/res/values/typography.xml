@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- All Base fonts goes here -->
+    <style name="TextRegular" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextMedium" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="TextSemiBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <!-- All Level 1 size style goes here -->
+
+    <!-- Level Regular Styles -->
+    <style name="Title.Regular" parent="TextRegular">
+        <item name="android:textSize">@dimen/Text.Title</item>
+    </style>
+
+    <style name="Title.Regular.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="Title.Regular.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="Title.Regular.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="Title.Regular.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="Title.Regular.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="Title.Regular.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Title.Regular.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Title.Regular.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="Title.Regular.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="Title.Regular.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <!-- Level 1 Medium Styles -->
+    <style name="Title.Medium" parent="TextMedium">
+        <item name="android:textSize">@dimen/Text.Title</item>
+    </style>
+
+    <style name="Title.Medium.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="Title.Medium.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="Title.Medium.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="Title.Medium.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="Title.Medium.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="Title.Medium.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Title.Medium.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Title.Medium.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="Title.Medium.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="Title.Medium.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <!-- Level 1 SemiBold Styles -->
+    <style name="Title.SemiBold" parent="TextSemiBold">
+        <item name="android:textSize">@dimen/Text.Title</item>
+    </style>
+
+    <style name="Title.SemiBold.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="Title.SemiBold.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="Title.SemiBold.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="Title.SemiBold.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="Title.SemiBold.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="Title.SemiBold.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Title.SemiBold.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Title.SemiBold.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="Title.SemiBold.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="Title.SemiBold.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="Title.SemiBold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!-- All Level 2 size style goes here -->
+
+    <!-- Level 3 Medium Styles -->
+    <style name="Subtitle.Medium" parent="TextMedium">
+        <item name="android:textSize">@dimen/Text.Subtitle</item>
+    </style>
+
+    <style name="Subtitle.Medium.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="Subtitle.Medium.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="Subtitle.Medium.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="Subtitle.Medium.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="Subtitle.Medium.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="Subtitle.Medium.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Subtitle.Medium.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Subtitle.Medium.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="Subtitle.Medium.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="Subtitle.Medium.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <!-- Level 3 SemiBold Styles -->
+    <style name="Subtitle.SemiBold" parent="TextSemiBold">
+        <item name="android:textSize">@dimen/Text.Subtitle</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="Subtitle.SemiBold.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <!-- All Body 1 size style goes here -->
+
+    <!-- Body 1 Regular Styles -->
+    <style name="Body.Regular" parent="TextRegular">
+        <item name="android:textSize">@dimen/Text.Body</item>
+    </style>
+
+    <style name="Body.Regular.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="Body.Regular.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="Body.Regular.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="Body.Regular.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="Body.Regular.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="Body.Regular.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Body.Regular.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Body.Regular.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="Body.Regular.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="Body.Regular.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="Body.Regular.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Body 1 Medium Styles -->
+    <style name="Body.Medium" parent="TextMedium">
+        <item name="android:textSize">@dimen/Text.Body</item>
+    </style>
+
+    <style name="Body.Medium.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="Body.Medium.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="Body.Medium.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="Body.Medium.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="Body.Medium.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="Body.Medium.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Body.Medium.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Body.Medium.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="Body.Medium.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="Body.Medium.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="Body.Medium.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Body 1 SemiBold Styles -->
+    <style name="Body.SemiBold" parent="TextSemiBold">
+        <item name="android:textSize">@dimen/Text.Body</item>
+    </style>
+
+    <style name="Body.SemiBold.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="Body.SemiBold.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="Body.SemiBold.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="Body.SemiBold.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="Body.SemiBold.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="Body.SemiBold.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Body.SemiBold.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Body.SemiBold.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="Body.SemiBold.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="Body.SemiBold.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="Body.SemiBold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- All Body Small size style goes here -->
+
+    <!-- Body Small Regular Styles -->
+    <style name="BodySmall.Regular" parent="TextRegular">
+        <item name="android:textSize">@dimen/Text.BodySmall</item>
+    </style>
+
+    <style name="BodySmall.Regular.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="BodySmall.Regular.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="BodySmall.Regular.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="BodySmall.Regular.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="BodySmall.Regular.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="BodySmall.Regular.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="BodySmall.Regular.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="BodySmall.Regular.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="BodySmall.Regular.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="BodySmall.Regular.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="BodySmall.Regular.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Body Small Medium Styles -->
+    <style name="BodySmall.Medium" parent="TextMedium">
+        <item name="android:textSize">@dimen/Text.BodySmall</item>
+    </style>
+
+    <style name="BodySmall.Medium.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="BodySmall.Medium.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="BodySmall.Medium.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="BodySmall.Medium.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="BodySmall.Medium.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="BodySmall.Medium.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="BodySmall.Medium.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="BodySmall.Medium.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="BodySmall.Medium.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="BodySmall.Medium.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="BodySmall.Medium.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Body Small SemiBold Styles -->
+    <style name="BodySmall.SemiBold" parent="TextSemiBold">
+        <item name="android:textSize">@dimen/Text.BodySmall</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.Purple">
+        <item name="android:textColor">@color/purple</item>
+    </style>
+
+    <style name="BodySmall.SemiBold.LightPurple">
+        <item name="android:textColor">@color/light_purple</item>
+    </style>
+
+    <!-- All Extra Small size style goes here -->
+
+    <!-- Extra Small Regular Styles -->
+    <style name="ExtraSmall.Regular" parent="TextRegular">
+        <item name="android:textSize">@dimen/Text.ExtraSmall</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ExtraSmall.Regular.Purple">
+        <item name="android:textColor">@color/purple</item>
+    </style>
+
+    <!-- Extra Small Medium Styles -->
+    <style name="ExtraSmall.Medium" parent="TextMedium">
+        <item name="android:textSize">@dimen/Text.ExtraSmall</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ExtraSmall.Medium.Purple">
+        <item name="android:textColor">@color/purple</item>
+    </style>
+
+    <!-- Extra Small SemiBold Styles -->
+    <style name="ExtraSmall.SemiBold" parent="TextSemiBold">
+        <item name="android:textSize">@dimen/Text.ExtraSmall</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.PrimaryInfo">
+        <item name="android:textColor">@color/primary_info</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.SecondaryInfo">
+        <item name="android:textColor">@color/secondary_info</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.TertiaryInfo">
+        <item name="android:textColor">@color/tertiary_info</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.Caution">
+        <item name="android:textColor">@color/caution</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.Primary">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.Auxiliary">
+        <item name="android:textColor">@color/auxiliary</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.Disabled">
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.DisableText">
+        <item name="android:textColor">@color/disabled_text</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ExtraSmall.SemiBold.Purple">
+        <item name="android:textColor">@color/purple</item>
+    </style>
+
+</resources>

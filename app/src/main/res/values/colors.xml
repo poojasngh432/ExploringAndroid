@@ -3,8 +3,35 @@
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+    <color name="purple">#656BB8</color>
+    <color name="light_purple">#EDF0FF</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="divider">#DBDBDB</color>
+    <color name="highlight">#FEF7EF</color>
+    <color name="secondary_bg">#F0F0F0</color>
+    <color name="primary_info">#3B3B3B</color>
+    <color name="secondary_info">#767676</color>
+    <color name="tertiary_info">#A9A9A9</color>
+
+    <color name="primary">#FF6F61</color>
+    <color name="auxiliary">#8A2422</color>
+    <color name="disabled">#E0E0E0</color>
+    <color name="disabled_text">#A9A9A9</color>
+
+    <color name="success">#208376</color>
+    <color name="success_bg">#E7F7E5</color>
+    <color name="caution">#D5410B</color>
+    <color name="caution_bg">#FFE0CC</color>
+    <color name="error">#E51F47</color>
+    <color name="error_bg">#FFD9E1</color>
+
+    <color name="no_rating">#DBDBDB</color>
+    <color name="rating_high">#208376</color>
+    <color name="rating_medium">#D5410B</color>
+    <color name="rating_low">#E51F47</color>
+
 </resources>
