@@ -1,5 +1,7 @@
 package com.poojasingh.exploringandroid.ui.activities
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.View.OnClickListener
@@ -7,6 +9,8 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.poojasingh.exploringandroid.R
 import com.poojasingh.exploringandroid.databinding.ActivityHomeBinding
+import com.poojasingh.exploringandroid.di.daggermvvm.DaggerActivity
+import com.poojasingh.exploringandroid.utils.AppConstants
 import com.poojasingh.exploringandroid.utils.Constants
 import com.poojasingh.exploringandroid.utils.create
 
@@ -22,6 +26,7 @@ class HomeActivity : AppCompatActivity(), OnClickListener {
 
         //start adding button
         addButton("DI")
+        addButton("DaggerActivity")
         addButton("TESTING")
     }
 
@@ -35,6 +40,7 @@ class HomeActivity : AppCompatActivity(), OnClickListener {
     override fun onClick(v: View?) {
         when (v) {
             btnViews[0] -> DIActivity.start(this@HomeActivity, Constants.EMAIL, Constants.PASSWORD)
+            btnViews[1] -> DaggerActivity.start(this@HomeActivity)
         }
     }
 
