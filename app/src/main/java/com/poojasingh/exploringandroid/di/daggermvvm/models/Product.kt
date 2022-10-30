@@ -3,6 +3,8 @@ package com.poojasingh.exploringandroid.di.daggermvvm.models
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+//Entity - table fr Room db
+
 @Entity
 data class Product (
     val category: String? = null,

@@ -5,9 +5,21 @@ import androidx.lifecycle.ViewModelProvider
 import com.poojasingh.exploringandroid.di.daggermvvm.repository.ProductRepository
 import javax.inject.Inject
 
-class DaggerViewmodelFactory @Inject constructor(private val repository: ProductRepository): ViewModelProvider.Factory {
+//ViewmodelFactory ko hm generalise krenge through Multiple Binding
+class DaggerViewmodelFactory @Inject constructor(
+    private val map: Map<Class<*>, @JvmSuppressWildcards ViewModel>
+    ): ViewModelProvider.Factory {
 
+    //activity me factory se model bnate waqt hm viewmodel ka type bhejte h vhi yha modelClass me ata h
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        return DaggerViewmodel(repository) as T
+        return map[modelClass] as T
     }
 }
+
+/*
+class DaggerViewmodelFactory @Inject constructor(private val daggerViewmodel: DaggerViewmodel): ViewModelProvider.Factory {
+
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        return daggerViewmodel as T
+    }
+}*/
