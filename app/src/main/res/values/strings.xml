@@ -5,5 +5,7 @@
     <string name="button">Button</string>
     <string name="main_screen">Main Screen</string>
     <string name="home">Home</string>
+    <string name="type_here">Type here</string>
+    <string name="enter_phone">Enter phone number</string>
 
 </resources>
