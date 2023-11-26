@@ -5,10 +5,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.poojasingh.exploringandroid.BaseApplication
-import com.poojasingh.exploringandroid.R
 import com.poojasingh.exploringandroid.databinding.ActivityDiactivityBinding
 import com.poojasingh.exploringandroid.di.*
-import com.poojasingh.exploringandroid.utils.AppConstants
 import com.poojasingh.exploringandroid.utils.Constants
 import javax.inject.Inject
 
@@ -44,8 +42,8 @@ class DIActivity : AppCompatActivity() {
         fun start(activity: Activity, email: String, password: String) {
             val intent = Intent(activity, DIActivity::class.java)
             val bundle = Bundle()
-            bundle.putString(AppConstants.EMAIL, email)
-            bundle.putString(AppConstants.PASSWORD, password)
+            bundle.putString(Constants.Values.EMAIL, email)
+            bundle.putString(Constants.Values.PASSWORD, password)
             intent.apply {
                 putExtras(bundle)
                 activity.startActivity(intent)

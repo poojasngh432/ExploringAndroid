@@ -246,6 +246,24 @@
         <item name="android:textColor">@color/disabled_text</item>
     </style>
 
+    <!-- Heading Styles -->
+    <style name="Heading.Medium" parent="TextMedium">
+        <item name="android:textSize">@dimen/Text.Level5</item>
+    </style>
+
+    <style name="Heading.Medium.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Heading.SemiBold" parent="TextSemiBold">
+        <item name="android:textSize">@dimen/Text.Level5</item>
+    </style>
+
+    <style name="Heading.SemiBold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
     <!-- All Body 1 size style goes here -->
 
     <!-- Body 1 Regular Styles -->

@@ -9,7 +9,7 @@ import dagger.multibindings.ClassKey
 import dagger.multibindings.IntoMap
 
 @Module
-abstract class ViewmodelModule {
+abstract class ViewModelModule {
 
     @Binds
     @ClassKey(DaggerViewmodel::class)
